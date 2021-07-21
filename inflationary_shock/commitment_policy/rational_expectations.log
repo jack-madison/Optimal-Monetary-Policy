@@ -1,0 +1,66 @@
+Starting preprocessing of the model file ...
+Ramsey Problem: added 5 Multipliers.
+Found 5 equation(s).
+Found 11 FOC equation(s) for Ramsey Problem.
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Computing dynamic model derivatives (order 2).
+Computing static model derivatives (order 3).
+Processing outputs ...
+done
+Preprocessing completed.
+
+MODEL SUMMARY
+
+  Number of variables:         11
+  Number of stochastic shocks: 1
+  Number of state variables:   5
+  Number of jumpers:           5
+  Number of static variables:  5
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables     epsilon
+epsilon      1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                   x              pi               i               e              Ex             Epi
+x(-1)                              0               0        0.500000               0        0.500000               0
+pi(-1)                     -1.127119        0.590032        1.100256               0       -0.668395        0.641532
+MULT_1(-1)                 -9.181007       -0.481609        9.611055               0        0.545573       -0.115524
+MULT_2(-1)                 -0.481609       -0.046654        0.336718               0       -0.117225       -0.027666
+epsilon                    -2.277009        1.191983        1.212639        1.000000       -1.350293        0.285923
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+x              0.0000     4.5796    20.9728
+pi             0.0000     1.3483     1.8179
+i              0.0000     1.7303     2.9940
+e              0.0000     1.0000     1.0000
+Ex             0.0000     3.9028    15.2320
+Epi            0.0000     0.8108     0.6574
+
+
+
+MATRIX OF CORRELATIONS
+Variables         x      pi       i       e      Ex     Epi
+x            1.0000 -0.7268 -0.8197 -0.4972  0.9823 -0.8295
+pi          -0.7268  1.0000  0.9519  0.8841 -0.5853  0.7442
+i           -0.8197  0.9519  1.0000  0.7008 -0.7081  0.9129
+e           -0.4972  0.8841  0.7008  1.0000 -0.3460  0.3526
+Ex           0.9823 -0.5853 -0.7081 -0.3460  1.0000 -0.7764
+Epi         -0.8295  0.7442  0.9129  0.3526 -0.7764  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+x         0.8372  0.5762  0.3345  0.1566  0.0463
+pi        0.4475  0.1140 -0.0512 -0.1083 -0.1071
+i         0.6354  0.1663 -0.0675 -0.1494 -0.1490
+e         0.0000  0.0000  0.0000  0.0000  0.0000
+Ex        0.8787  0.6254  0.3756  0.1848  0.0627
+Epi       0.6335  0.1515 -0.0843 -0.1631 -0.1583
+Total computing time : 0h00m01s
