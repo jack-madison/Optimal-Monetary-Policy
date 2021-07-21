@@ -1,0 +1,63 @@
+Starting preprocessing of the model file ...
+Found 6 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+x   		 0
+pi  		 0
+i   		 0
+e   		 0
+Ex  		 0
+Epi 		 0
+
+MODEL SUMMARY
+
+  Number of variables:         6
+  Number of stochastic shocks: 1
+  Number of state variables:   3
+  Number of jumpers:           2
+  Number of static variables:  3
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables     epsilon
+epsilon      1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                   x              pi               i               e              Ex             Epi
+epsilon                     0.641026        0.025641        0.358974        1.000000               0               0
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+x              0.0000     0.6410     0.4109
+pi             0.0000     0.0256     0.0007
+i              0.0000     0.3590     0.1289
+e              0.0000     1.0000     1.0000
+Ex             0.0000     0.0000     0.0000
+Epi            0.0000     0.0000     0.0000
+
+
+
+MATRIX OF CORRELATIONS
+Variables         x      pi       i       e
+x            1.0000  1.0000  1.0000  1.0000
+pi           1.0000  1.0000  1.0000  1.0000
+i            1.0000  1.0000  1.0000  1.0000
+e            1.0000  1.0000  1.0000  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+x         0.0000  0.0000  0.0000  0.0000  0.0000
+pi        0.0000  0.0000  0.0000  0.0000  0.0000
+i         0.0000  0.0000  0.0000  0.0000  0.0000
+e         0.0000  0.0000  0.0000  0.0000  0.0000
+Total computing time : 0h00m02s

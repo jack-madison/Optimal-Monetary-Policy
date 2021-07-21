@@ -1,0 +1,69 @@
+Starting preprocessing of the model file ...
+Found 6 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+x   		 0
+pi  		 0
+i   		 0
+e   		 0
+Ex  		 0
+Epi 		 0
+
+MODEL SUMMARY
+
+  Number of variables:         6
+  Number of stochastic shocks: 1
+  Number of state variables:   3
+  Number of jumpers:           2
+  Number of static variables:  3
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables     epsilon
+epsilon      1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                                   x              pi               i               e              Ex             Epi
+x(-1)                       0.350799        0.031167        0.222150               0        0.555641        0.017308
+pi(-1)                     -0.377897        0.759863        0.950846               0       -0.209858        0.782807
+epsilon                     0.701598        0.062334        0.444300        1.000000        0.111282        0.034616
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+x              0.0000     0.7389     0.5460
+pi             0.0000     0.1311     0.0172
+i              0.0000     0.5150     0.2653
+e              0.0000     1.0000     1.0000
+Ex             0.0000     0.4095     0.1677
+Epi            0.0000     0.1163     0.0135
+
+
+
+MATRIX OF CORRELATIONS
+Variables         x      pi       i       e      Ex     Epi
+x            1.0000  0.6203  0.9541  0.9495  0.5579  0.4496
+pi           0.6203  1.0000  0.8267  0.4755  0.7195  0.9795
+i            0.9541  0.8267  1.0000  0.8627  0.6749  0.6964
+e            0.9495  0.4755  0.8627  1.0000  0.2718  0.2977
+Ex           0.5579  0.7195  0.6749  0.2718  1.0000  0.6761
+Epi          0.4496  0.9795  0.6964  0.2977  0.6761  1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+x         0.3092  0.0651 -0.0138 -0.0334 -0.0333
+pi        0.8688  0.6866  0.5208  0.3873  0.2852
+i         0.5041  0.2816  0.1724  0.1131  0.0777
+e         0.0000  0.0000  0.0000  0.0000  0.0000
+Ex        0.5111  0.1046 -0.0261 -0.0581 -0.0573
+Epi       0.9139  0.7367  0.5638  0.4212  0.3109
+Total computing time : 0h00m06s
